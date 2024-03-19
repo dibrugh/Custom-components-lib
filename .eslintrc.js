@@ -31,7 +31,7 @@ module.exports = {
         /* Allows usage of imports */
         sourceType: "module",
     },
-    plugins: ["react" /* "prettier" */],
+    plugins: ["react", "prettier"],
     rules: {
         "@typescript-eslint/no-unused-vars": ["error"],
         "prettier/prettier": ["error", { endOfLine: "auto" }],
