@@ -1,5 +1,5 @@
 // Config specific for prod env
 module.exports = {
-	mode: "production",
-	devtool: "source-map",
+    mode: "production",
+    devtool: "source-map",
 };
